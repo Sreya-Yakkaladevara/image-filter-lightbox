@@ -1,0 +1,50 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container{
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(3,8vw);
+  grid-template-rows: repeat(3,8vw);
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.boxes{
+  /* padding: 20px; */
+  border-radius: 10px;
+ font-size: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  background-color: grey;
+
+
+}
+.box{
+  font-size: 30px;
+
+  /* height: 30px;
+  width: 30px; */
+}
+.tic_tac_container .title{
+  
+  text-align: center;
+}
+.btn{
+  background-color: black;
+  color: white;
+  padding: 20px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+}
